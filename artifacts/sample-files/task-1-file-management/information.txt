@@ -1,0 +1,5 @@
+My name is Zooto.
+I am learning Linux command-line operations.
+I am practising DevOps.
+Linux is an important operating system.
+This is my first Linux command-line project.
