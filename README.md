@@ -68,9 +68,9 @@ Practised monitoring running processes and system resources using `ps`, `top`, `
 
 ### Task 4: Networking Basics
 
-Practising network connectivity tests and inspecting network configurations and connections.
+Practised network connectivity testing and inspected network configuration and listening TCP/UDP sockets using `hostname`, `ip addr`, `ping` and `ss`.
 
-**Status:** Pending.
+**Status:** Practical commands executed; screenshot evidence and final review pending.
 
 ### Task 5: Pipes and Redirection
 
@@ -89,7 +89,7 @@ Developing a reusable Bash script using variables, conditionals and loops to aut
 - [x] Task 1 – File Management
 - [x] Task 2 – Directory Navigation
 - [x] Task 3 – System Monitoring and Administration
-- [ ] Task 4 – Networking
+- [ ] Task 4 – Networking (practical commands executed; evidence pending)
 - [ ] Task 5 – Pipes and Redirection
 - [ ] Task 6 – Shell Scripting
 
