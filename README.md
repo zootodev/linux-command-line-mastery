@@ -62,7 +62,7 @@ The task included checking the current working directory, navigating to the home
 
 ### Task 3: System Monitoring and Administration
 
-Practised monitoring running processes and system resources using ps, top, uptime, free and df. Also explored user and group identification, file permission management with chmod, file ownership management with chown, and administrative privileges using sudo.
+Practised monitoring running processes and system resources using `ps`, `top`, `uptime`, `free` and `df`. Also explored user and group identification, file permission management with `chmod`, file ownership management with `chown`, and administrative privileges using `sudo`.
 
 **Status:** Completed.
 
@@ -95,7 +95,7 @@ Developing a reusable Bash script using variables, conditionals and loops to aut
 
 ## Final Learning Summary
 
-This project has provided practical experience with Linux command-line operations and basic filesystem management. Through Tasks 1 and 2, I practised managing files and directories, navigating using absolute and relative paths, creating nested directory structures and exploring standard Linux directories.
+This project has provided practical experience with Linux command-line operations and basic filesystem management. Through Tasks 1 to 3, I practised managing files and directories, navigating the Linux filesystem, monitoring system processes and resources, identifying users and groups, managing file permissions and ownership, and executing commands with administrative privileges.
 
 The remaining tasks will build on these skills by introducing system monitoring, administration, networking, pipes, redirection and Bash scripting.
 

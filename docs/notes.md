@@ -127,7 +127,7 @@ Practise monitoring system processes and resources, identifying users and groups
 3. Identified the current user and their group memberships.
 4. Created a file named `permissions-demo.txt`.
 5. Changed its permissions from `644` to `600`, then restored them to `644`.
-6. Created `root-owned-demo.txt` using administrative privileges.
+6. Created `root-owned.txt` using administrative privileges.
 7. Changed the ownership of the root-owned file to the current user and group.
 8. Used `sudo whoami` to verify administrative access.
 
