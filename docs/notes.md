@@ -151,3 +151,46 @@ Practise monitoring system processes and resources, identifying users and groups
 ### Completion Status
 
 Completed.
+
+
+---
+
+## Task 4: Networking Basics
+
+### Objective
+
+The objective of this task was to verify network connectivity and inspect network configuration and listening network sockets using basic Linux networking commands.
+
+### Commands Practised
+
+- `hostname` – Displays the system's hostname.
+- `ip addr` – Displays network interfaces and their assigned IP addresses.
+- `ping darey.io` – Sends ICMP echo requests to test connectivity to the specified host. Without a packet count, the command continues until interrupted.
+- `ping -c 4 darey.io` – Sends four ICMP echo requests to the specified host and then stops.
+- `ss -tuln` – Displays listening TCP and UDP sockets using numerical addresses and port numbers.
+
+### Practical Activities Completed
+
+1. Displayed the system hostname using `hostname`.
+2. Inspected network interfaces and IP address information using `ip addr`.
+3. Tested connectivity to `darey.io` using `ping darey.io`.
+4. Repeated the connectivity test with a limit of four packets using `ping -c 4 darey.io`.
+5. Inspected listening TCP and UDP sockets using `ss -tuln`.
+
+### Command Outputs and Observations
+
+- The `hostname` command displays the name assigned to the Linux system.
+- The `ip addr` command displays available network interfaces and their IP address information.
+- The `ping` command sends network echo requests to a destination and reports responses and packet statistics when the command is stopped.
+- The `-c 4` option limits the ping test to four packets.
+- The `ss -tuln` command displays listening TCP and UDP sockets. The options select TCP, UDP, listening sockets and numerical address/port output.
+
+The commands above were executed during the practical exercise. Specific connectivity results and interface addresses are not recorded here because the terminal output was not available for review.
+
+### Troubleshooting
+
+No specific networking error or troubleshooting change was reported during this exercise.
+
+### Completion Status
+
+Practical commands executed. Screenshot evidence and final submission review pending.
