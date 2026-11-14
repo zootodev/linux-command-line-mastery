@@ -62,9 +62,9 @@ The task included checking the current working directory, navigating to the home
 
 ### Task 3: System Monitoring and Administration
 
-Inspecting system resources, monitoring running processes and managing users, groups, file permissions and ownership.
+Practised monitoring running processes and system resources using ps, top, uptime, free and df. Also explored user and group identification, file permission management with chmod, file ownership management with chown, and administrative privileges using sudo.
 
-**Status:** Pending.
+**Status:** Completed.
 
 ### Task 4: Networking Basics
 
@@ -86,12 +86,12 @@ Developing a reusable Bash script using variables, conditionals and loops to aut
 
 ## Completion Checklist
 
-- [x] Task 1: File Management
-- [x] Task 2: Directory Navigation
-- [ ] Task 3: System Monitoring and Administration
-- [ ] Task 4: Networking Basics
-- [ ] Task 5: Pipes and Redirection
-- [ ] Task 6: Shell Scripting
+- [x] Task 1 – File Management
+- [x] Task 2 – Directory Navigation
+- [x] Task 3 – System Monitoring and Administration
+- [ ] Task 4 – Networking
+- [ ] Task 5 – Pipes and Redirection
+- [ ] Task 6 – Shell Scripting
 
 ## Final Learning Summary
 

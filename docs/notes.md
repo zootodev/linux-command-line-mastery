@@ -98,3 +98,56 @@ The directory structure was verified after creation to confirm that all required
 
 Completed.
 
+---
+
+## Task 3: System Monitoring and Administration
+
+### Objective
+
+Practise monitoring system processes and resources, identifying users and groups, managing file permissions and ownership, and executing commands with administrative privileges.
+
+### Commands Practised
+
+- `ps aux` – Displays running processes and their details.
+- `top` – Shows real-time process and system resource information.
+- `uptime` – Displays how long the system has been running and its load averages.
+- `free -m` – Displays memory usage in megabytes.
+- `df -h` – Displays disk space usage in a human-readable format.
+- `whoami` – Displays the current username.
+- `id` – Displays the current user's UID, GID and group memberships.
+- `groups` – Lists the groups associated with the current user.
+- `chmod` – Changes file permissions.
+- `chown` – Changes file ownership.
+- `sudo` – Executes commands with administrative privileges.
+
+### Practical Activities Completed
+
+1. Monitored running processes using `ps aux` and `top`.
+2. Checked system uptime, memory usage and available disk space.
+3. Identified the current user and their group memberships.
+4. Created a file named `permissions-demo.txt`.
+5. Changed its permissions from `644` to `600`, then restored them to `644`.
+6. Created `root-owned-demo.txt` using administrative privileges.
+7. Changed the ownership of the root-owned file to the current user and group.
+8. Used `sudo whoami` to verify administrative access.
+
+### Command Outputs and Observations
+
+- `ps aux` provides a snapshot of running processes, while `top` provides continuously updated process information.
+- `uptime`, `free -m` and `df -h` provide useful information about system availability, memory and disk usage.
+- Linux users have unique user and group identifiers.
+- File permissions determine who can read, write or execute a file.
+- Permission `644` gives the owner read and write access while other users have read access.
+- Permission `600` gives the owner read and write access only.
+- The `chown` command changes the owner and group associated with a file.
+- The `sudo` command allows authorised users to execute commands with elevated privileges.
+
+### Troubleshooting
+
+- Used `sudo` when administrative privileges were required to create a root-owned file.
+- Used `ls -l` to inspect file permissions and ownership before and after making changes.
+- Used `chmod` and `chown` to correct file permissions and ownership.
+
+### Completion Status
+
+Completed.
