@@ -74,9 +74,9 @@ Practised network connectivity testing and inspected network configuration and l
 
 ### Task 5: Pipes and Redirection
 
-Learning how to redirect standard output and errors, combine commands using pipes and process data using command-line utilities.
+Practised redirecting standard output and error messages using `>`, `>>` and `2>`. Also chained commands using pipes (`|`) with `grep`, `awk`, `sort` and `uniq` to filter and process text data.
 
-**Status:** Pending.
+**Status:** Completed..
 
 ### Task 6: Shell Scripting
 
@@ -90,7 +90,7 @@ Developing a reusable Bash script using variables, conditionals and loops to aut
 - [x] Task 2 – Directory Navigation
 - [x] Task 3 – System Monitoring and Administration
 - [x] Task 4 – Networking Basics
-- [ ] Task 5 – Pipes and Redirection
+- [x] Task 5 – Pipes and Redirection
 - [ ] Task 6 – Shell Scripting
 
 ## Final Learning Summary

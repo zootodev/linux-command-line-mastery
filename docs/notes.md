@@ -191,3 +191,53 @@ No specific networking error or troubleshooting change was reported during this 
 ### Completion Status
 
 Completed
+
+---
+
+## Task 5: Pipes and Redirection
+
+### Objective
+
+The objective of this task was to practise redirecting command output and errors, and chaining commands together using pipes to filter and process data.
+
+### Commands Practised
+
+- `>` – Redirects standard output into a file, replacing existing content.
+- `>>` – Appends standard output to the end of an existing file.
+- `2>` – Redirects standard error messages into a file.
+- `|` – Passes the output of one command as input to another.
+- `grep` – Searches for lines matching a specified pattern.
+- `sort` – Arranges lines of text alphabetically.
+- `uniq` – Removes adjacent duplicate lines.
+- `awk` – Processes text and extracts specific fields.
+
+### Practical Activities Completed
+
+1. Redirected text into `output.txt` using `>`.
+2. Appended additional text to `output.txt` using `>>`.
+3. Generated an error by attempting to list a nonexistent file and redirected the error into `errors.txt` using `2>`.
+4. Used `grep` with a pipe to filter lines containing the word "Linux".
+5. Used `sort` to arrange lines alphabetically.
+6. Created `words.txt` with repeated words and combined `sort` and `uniq` to remove duplicates.
+7. Created `scores.txt` and used `awk` to extract names from the first field.
+8. Combined `cat`, `awk` and `sort` using multiple pipes to process and arrange names alphabetically.
+
+### Command Outputs and Observations
+
+- The `>` operator creates a file if it does not exist and replaces its contents if it already exists.
+- The `>>` operator adds new content without removing existing content.
+- The `2>` operator redirects error messages instead of displaying them in the terminal.
+- Pipes allow multiple commands to work together by passing output from one command to another.
+- `grep` filters lines based on a specified search pattern.
+- `sort` arranges text lines alphabetically.
+- `uniq` removes adjacent duplicate lines. Sorting first helps bring duplicate entries together.
+- `awk` can extract specific fields from text using field references such as `$1`.
+- Multiple commands can be chained together to filter, extract and arrange data.
+
+### Troubleshooting
+
+No specific errors requiring troubleshooting changes were reported during this exercise. An intentional error was generated using a nonexistent filename to practise error redirection.
+
+### Completion Status
+
+Completed.
