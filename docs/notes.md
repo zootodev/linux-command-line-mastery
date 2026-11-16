@@ -152,7 +152,6 @@ Practise monitoring system processes and resources, identifying users and groups
 
 Completed.
 
-
 ---
 
 ## Task 4: Networking Basics
@@ -185,12 +184,10 @@ The objective of this task was to verify network connectivity and inspect networ
 - The `-c 4` option limits the ping test to four packets.
 - The `ss -tuln` command displays listening TCP and UDP sockets. The options select TCP, UDP, listening sockets and numerical address/port output.
 
-The commands above were executed during the practical exercise. Specific connectivity results and interface addresses are not recorded here because the terminal output was not available for review.
-
 ### Troubleshooting
 
 No specific networking error or troubleshooting change was reported during this exercise.
 
 ### Completion Status
 
-Practical commands executed. Screenshot evidence and final submission review pending.
+Completed

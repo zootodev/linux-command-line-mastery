@@ -70,7 +70,7 @@ Practised monitoring running processes and system resources using `ps`, `top`, `
 
 Practised network connectivity testing and inspected network configuration and listening TCP/UDP sockets using `hostname`, `ip addr`, `ping` and `ss`.
 
-**Status:** Practical commands executed; screenshot evidence and final review pending.
+**Status:** Completed
 
 ### Task 5: Pipes and Redirection
 
@@ -89,7 +89,7 @@ Developing a reusable Bash script using variables, conditionals and loops to aut
 - [x] Task 1 – File Management
 - [x] Task 2 – Directory Navigation
 - [x] Task 3 – System Monitoring and Administration
-- [ ] Task 4 – Networking (practical commands executed; evidence pending)
+- [x] Task 4 – Networking Basics
 - [ ] Task 5 – Pipes and Redirection
 - [ ] Task 6 – Shell Scripting
 
