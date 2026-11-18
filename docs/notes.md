@@ -241,3 +241,66 @@ No specific errors requiring troubleshooting changes were reported during this e
 ### Completion Status
 
 Completed.
+
+---
+
+## Task 6: Shell Scripting
+
+### Objective
+
+The objective of this task was to write a reusable Bash script incorporating variables, conditionals and loops to automate directory creation and logging. The script was also required to be executable.
+
+### Commands Practised
+
+- `nano directory_logger.sh` – Created and edited the Bash script using the Nano text editor.
+- `#!/bin/bash` – Specified Bash as the interpreter for the script.
+- Variables – Stored the base directory, directory names and log filename.
+- Arrays – Stored multiple directory names for processing.
+- `if`, `else` and `fi` – Checked whether directories already existed before creating them.
+- `for` and `done` – Repeated directory creation and logging operations for each directory name.
+- `mkdir` – Created directories.
+- `echo` – Displayed messages and recorded information in the log file.
+- `$(date)` – Retrieved the current date and time.
+- `>>` – Appended log entries to the log file.
+- `bash -n directory_logger.sh` – Checked the script for syntax errors without executing it.
+- `chmod 755 directory_logger.sh` – Made the script executable.
+- `./directory_logger.sh` – Executed the script.
+
+### Practical Activities Completed
+
+1. Created a Bash script named `directory_logger.sh`.
+2. Declared variables to store the base directory, directory names and log filename.
+3. Used an array to store the names of three directories: `documents`, `images` and `backups`.
+4. Implemented a conditional statement to check whether the main directory existed before creating it.
+5. Used a `for` loop to process the directory names stored in the array.
+6. Added conditional checks to prevent the script from attempting to recreate existing directories.
+7. Used logging statements to record directory creation activities and timestamps in `directory-creation.log`.
+8. Validated the script using `bash -n`.
+9. Made the script executable using `chmod 755`.
+10. Executed the script and verified that the required directories were created.
+11. Executed the script again to confirm that existing directories were detected and recorded in the log file.
+
+### Command Outputs and Observations
+
+- Variables allow information to be stored and reused throughout a script.
+- Bash arrays can store multiple values under one variable name.
+- Conditional statements allow scripts to make decisions based on specified conditions.
+- The `-d` test checks whether a directory exists.
+- A `for` loop repeats commands for each item in an array.
+- The `mkdir` command creates directories.
+- The `echo` command can write messages into a log file using output redirection.
+- The `>>` operator appends information to a file without replacing its existing content.
+- The `$(date)` expression inserts the current date and time into log entries.
+- The `bash -n` command checks Bash script syntax without running the script.
+- The `chmod 755` command adds execute permission to a script.
+- Running the script multiple times demonstrated that existing directories were detected rather than recreated.
+
+### Troubleshooting
+
+The script was checked using `bash -n directory_logger.sh` before execution. No syntax errors were reported.
+
+The script was executed twice to test its reusability. The second execution correctly identified existing directories and recorded the results in the log file.
+
+### Completion Status
+
+Completed.

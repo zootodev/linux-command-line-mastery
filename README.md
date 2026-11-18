@@ -70,19 +70,19 @@ Practised monitoring running processes and system resources using `ps`, `top`, `
 
 Practised network connectivity testing and inspected network configuration and listening TCP/UDP sockets using `hostname`, `ip addr`, `ping` and `ss`.
 
-**Status:** Completed
+**Status:** Completed.
 
 ### Task 5: Pipes and Redirection
 
 Practised redirecting standard output and error messages using `>`, `>>` and `2>`. Also chained commands using pipes (`|`) with `grep`, `awk`, `sort` and `uniq` to filter and process text data.
 
-**Status:** Completed..
+**Status:** Completed.
 
 ### Task 6: Shell Scripting
 
-Developing a reusable Bash script using variables, conditionals and loops to automate directory creation and logging.
+Created and tested a reusable Bash script named `directory_logger.sh` using variables, an array, conditional statements and a `for` loop. The script automates directory creation, checks whether directories already exist, and records its activities and timestamps in a log file. Validated the script, made it executable and tested repeated execution.
 
-**Status:** Pending.
+**Status:** Completed.
 
 ## Completion Checklist
 
@@ -91,15 +91,15 @@ Developing a reusable Bash script using variables, conditionals and loops to aut
 - [x] Task 3 – System Monitoring and Administration
 - [x] Task 4 – Networking Basics
 - [x] Task 5 – Pipes and Redirection
-- [ ] Task 6 – Shell Scripting
+- [x] Task 6 – Shell Scripting
 
 ## Final Learning Summary
 
-This project has provided practical experience with Linux command-line operations and basic filesystem management. Through Tasks 1 to 3, I practised managing files and directories, navigating the Linux filesystem, monitoring system processes and resources, identifying users and groups, managing file permissions and ownership, and executing commands with administrative privileges.
+This project provided practical experience with Linux command-line operations, filesystem management, directory navigation, system monitoring, networking, pipes, input/output redirection and Bash scripting.
 
-The remaining tasks will build on these skills by introducing system monitoring, administration, networking, pipes, redirection and Bash scripting.
+Throughout the six tasks, I practised creating and managing files and directories, navigating the Linux filesystem, monitoring system processes and resources, managing file permissions and ownership, inspecting network configuration, testing connectivity, processing command output and automating directory creation using a reusable Bash script.
 
-The final learning summary will be updated after completing all six tasks.
+The project strengthened my understanding of Linux command-line operations and provided practical experience with basic system administration and shell scripting.
 
 ## Author
 
